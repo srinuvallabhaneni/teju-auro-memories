@@ -54,7 +54,7 @@ export default function Navbar() {
         <div className="mt-20 px-8">
           <div className="mb-6">
             <span className="block font-playfair font-semibold text-xl text-[#39372b]">Teju &amp; Auro</span>
-            <div className="text-[#39372b] text-sm mt-2">Forever begins Aug 8, 2025</div>
+            <div className="text-[#39372b]/60 text-sm font-ebgaramond italic mt-2">Married August 8, 2025</div>
           </div>
           <ul className="flex flex-col gap-6 text-[#39372b] font-playfair text-lg uppercase tracking-wide">
             <li><Link to="/" onClick={() => setOpen(false)}>Home</Link></li>

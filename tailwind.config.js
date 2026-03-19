@@ -8,6 +8,7 @@ export default {
         'Dancing_Script': ['"Dancing Script"', 'cursive'],
         dancing: ['"Dancing Script"', 'cursive'],
         playfair: ['"Playfair Display"', 'serif'],
+        ebgaramond: ['"EB Garamond"', 'serif'],
       },
       keyframes: {
         'slide-left': {

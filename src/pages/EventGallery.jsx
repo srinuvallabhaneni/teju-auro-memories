@@ -207,17 +207,19 @@ export default function EventGallery() {
   }
 
   return (
-    <div className="min-h-screen bg-[#f5efe8] relative overflow-hidden">
+    <div className="min-h-screen bg-[#f5efe8] flex flex-col items-center pb-16 w-full relative overflow-x-hidden">
       {/* Watermarks */}
       <img
         src={watermarkLeft}
-        alt=""
-        className="fixed top-1/4 left-0 w-24 md:w-36 opacity-10 pointer-events-none select-none"
+        alt="Watermark Left"
+        className="hidden md:block absolute left-0 top-1/3 -translate-y-1/2 -translate-x-20 w-80 lg:w-[420px] pointer-events-none select-none z-0"
+        style={{ maxHeight: '90vh' }}
       />
       <img
         src={watermarkRight}
-        alt=""
-        className="fixed top-1/4 right-0 w-24 md:w-36 opacity-10 pointer-events-none select-none"
+        alt="Watermark Right"
+        className="hidden md:block absolute right-0 top-1/2 -translate-y-1/2 translate-x-20 w-80 lg:w-[420px] pointer-events-none select-none z-0"
+        style={{ maxHeight: '90vh' }}
       />
 
       {/* Back Navigation */}
@@ -333,16 +335,17 @@ export default function EventGallery() {
       </div>
 
       {/* Footer */}
-      <footer className="relative py-8 text-center">
+      <div className="max-w-5xl mx-auto px-4">
         <img
           src={watermarkBottom}
-          alt=""
-          className="mx-auto w-32 md:w-40 opacity-15 mb-4 pointer-events-none select-none"
+          alt="Watermark Bottom"
+          className="mx-auto mt-12 w-32 md:w-48 lg:w-56 pointer-events-none select-none"
+          style={{ maxHeight: '120px' }}
         />
-        <p className="font-dancing text-lg text-[#B993A5]">
-          Teju & Auro &mdash; Forever in our hearts
-        </p>
-      </footer>
+        <footer className="text-center text-xs text-[#39372b] font-playfair mt-4 mb-2 opacity-70">
+          Teju &amp; Auro &mdash; Forever
+        </footer>
+      </div>
     </div>
   );
 }
