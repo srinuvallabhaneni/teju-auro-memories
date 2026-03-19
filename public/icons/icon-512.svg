@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <rect width="512" height="512" rx="64" fill="#f5efe8"/>
+  <path d="M256 432 C256 432, 80 320, 80 208 C80 144, 136 96, 188 96 C220 96, 244 120, 256 144 C268 120, 292 96, 324 96 C376 96, 432 144, 432 208 C432 320, 256 432, 256 432Z" fill="#B993A5"/>
+  <text x="256" y="288" text-anchor="middle" font-family="Georgia, serif" font-size="72" font-weight="bold" fill="#f5efe8">T &amp; A</text>
+</svg>

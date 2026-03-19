@@ -1,0 +1,24 @@
+{
+  "name": "Teju & Auro — Forever Memories",
+  "short_name": "Teju & Auro",
+  "description": "A memory book for Tejasvi & Aurobindo — preserving wedding moments and life together",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f5efe8",
+  "theme_color": "#B993A5",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}

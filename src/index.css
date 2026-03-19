@@ -1,0 +1,96 @@
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color: #39372b;
+  background-color: #f5efe8;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.font-ebgaramond {
+  font-family: 'EB Garamond', serif;
+}
+
+a {
+  font-weight: 500;
+  color: #39372b;
+  text-decoration: inherit;
+}
+.flower-top {
+  top: 400px;
+}
+@media (min-width: 768px) {
+  .flower-top {
+    top: 700px;
+  }
+}
+a:hover {
+  color: #B993A5;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+html, body {
+  overflow-x: hidden;
+}
+
+
+/* RSVP form field background fix for all browsers and devices */
+input,
+select,
+textarea {
+  background-color: #f5efe8 !important;
+  color: #39372b !important;
+  box-shadow: none !important;
+}
+
+/* Autofill fix for RSVP and all inputs */
+input:-webkit-autofill,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:active {
+  -webkit-box-shadow: 0 0 0 1000px #f5efe8 inset !important;
+  box-shadow: 0 0 0 1000px #f5efe8 inset !important;
+  -webkit-text-fill-color: #39372b !important;
+  caret-color: #39372b !important;
+  transition: background-color 5000s ease-in-out 0s;
+}
+
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #f5efe8;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #B993A5;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
