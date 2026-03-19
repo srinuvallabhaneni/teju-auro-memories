@@ -66,7 +66,7 @@ export default function WeddingJourney() {
 
       <div className="w-full max-w-3xl mx-auto px-4 pt-8 relative z-10">
         {/* Page Title */}
-        <h1 className="font-playfair text-3xl md:text-4xl lg:text-5xl text-[#39372b] text-center mb-3 tracking-wide">
+        <h1 className="font-playfair text-3xl md:text-4xl text-[#39372b] tracking-widest text-center uppercase mb-2">
           Our Wedding Journey
         </h1>
         <p className="font-ebgaramond italic text-lg md:text-xl text-[#39372b] text-center mb-12 max-w-xl mx-auto">
@@ -139,8 +139,8 @@ export default function WeddingJourney() {
         />
       </div>
 
-      <footer className="text-center text-sm text-[#39372b] font-playfair mt-8 mb-4 opacity-70">
-        Teju & Auro -- Forever
+      <footer className="text-center text-xs text-[#39372b] font-playfair mt-8 mb-4 opacity-70">
+        Teju &amp; Auro &mdash; Forever
       </footer>
     </div>
   );

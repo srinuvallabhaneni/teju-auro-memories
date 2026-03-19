@@ -3,7 +3,6 @@ import { Link } from 'react-router-dom';
 import Slideshow from '../components/Slideshow';
 import DecorWindow from '../components/DecorWindow';
 
-import borderPng from '../assets/border.png';
 import watermarkLeft from '../assets/watermark-left.png';
 import watermarkRight from '../assets/watermark-right.png';
 import watermarkBottom from '../assets/watermark-bottom.png';
@@ -110,22 +109,12 @@ export default function Home({ onSlideshowHeight }) {
             <DecorWindow extraClasses="max-w-6xl min-h-[65vh] flex flex-col justify-center py-10 md:py-32 px-4 md:px-20">
               <div className="flex flex-col items-center w-full px-2 md:px-8 py-2 md:py-6 gap-2 md:gap-4">
 
-                <h2 className="font-dancing font-bold text-4xl md:text-5xl text-[#39372b] mb-1 md:mb-2 text-center">Tejasvi Vallabhaneni</h2>
-                <div className="font-ebgaramond text-3xl md:text-4xl text-[#39372b] mb-1">&amp;</div>
-                <h2 className="font-dancing font-bold text-4xl md:text-5xl text-[#39372b] mb-3 md:mb-4 text-center">Aurobindo Sonti</h2>
+                <h2 className="font-dancing font-bold text-4xl md:text-5xl text-[#39372b] mb-1 md:mb-2 text-center">Tejasvi</h2>
+                <div className="font-ebgaramond text-3xl md:text-4xl text-[#B993A5] mb-1">&amp;</div>
+                <h2 className="font-dancing font-bold text-4xl md:text-5xl text-[#39372b] mb-3 md:mb-4 text-center">Aurobindo</h2>
 
-                <div className="font-ebgaramond italic text-lg md:text-xl text-[#39372b] mb-4 md:mb-6 text-center max-w-2xl">
-                  Forever begins here
-                </div>
-
-                <div className="flex flex-row justify-center items-center gap-2 md:gap-3 mb-2 md:mb-3 w-full">
-                  <span className="font-ebgaramond font-bold uppercase text-lg md:text-2xl text-[#39372b] tracking-wide">
-                    August 08, 2025
-                  </span>
-                  <span className="font-ebgaramond text-lg md:text-2xl text-[#39372b]">&bull;</span>
-                  <span className="font-ebgaramond text-lg md:text-2xl text-[#39372b] text-center">
-                    Sunol's Casa Bella Event Center
-                  </span>
+                <div className="font-ebgaramond italic text-base md:text-lg text-[#39372b]/70 mb-4 md:mb-6 text-center tracking-wider">
+                  Married August 8, 2025
                 </div>
 
                 {/* Days since wedding counter */}
@@ -161,8 +150,8 @@ export default function Home({ onSlideshowHeight }) {
             className="mx-auto -mt-10 w-40 md:w-64 lg:w-80 pointer-events-none select-none"
             style={{maxHeight: '160px'}}
           />
-        <footer className="text-center text-sm text-[#39372b] font-playfair mt-12 mb-4 opacity-70">
-          Teju & Auro -- Forever
+        <footer className="text-center text-xs text-[#39372b] font-playfair mt-12 mb-4 opacity-70">
+          Teju &amp; Auro &mdash; Forever
         </footer>
       </div>
       </div>

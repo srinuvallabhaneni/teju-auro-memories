@@ -145,7 +145,7 @@ function TimelineNode({ memory, index, isLeft, onMemoryClick }) {
             </span>
             {memory.category && (
               <span
-                className="px-2 py-0.5 rounded-full text-[10px] font-medium tracking-wide uppercase text-white"
+                className="px-2 py-0.5 rounded-full text-[10px] font-playfair font-medium tracking-wide uppercase text-white"
                 style={{ backgroundColor: categoryColor }}
               >
                 {capitalize(memory.category)}
@@ -160,14 +160,14 @@ function TimelineNode({ memory, index, isLeft, onMemoryClick }) {
 
           {/* Description Preview */}
           {memory.description && (
-            <p className="mt-2 text-sm text-[#39372b]/60 leading-relaxed line-clamp-2">
+            <p className="mt-2 text-sm font-ebgaramond text-[#39372b]/60 leading-relaxed line-clamp-2">
               {memory.description}
             </p>
           )}
 
           {/* Photo Count */}
           {memory.photoCount > 0 && (
-            <div className="mt-2 flex items-center gap-1.5 text-xs text-[#B993A5]">
+            <div className="mt-2 flex items-center gap-1.5 text-xs font-ebgaramond text-[#B993A5]">
               <svg
                 className="w-3.5 h-3.5"
                 fill="none"
@@ -261,7 +261,7 @@ export default function Timeline({ memories = [], onMemoryClick }) {
           />
         </svg>
         <p className="font-playfair text-lg">No memories yet</p>
-        <p className="text-sm mt-1">Start adding memories to see your timeline</p>
+        <p className="text-sm font-ebgaramond mt-1">Start adding memories to see your timeline</p>
       </div>
     );
   }

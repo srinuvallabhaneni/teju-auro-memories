@@ -12,10 +12,6 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.font-ebgaramond {
-  font-family: 'EB Garamond', serif;
-}
-
 a {
   font-weight: 500;
   color: #39372b;
@@ -44,7 +40,7 @@ html, body {
 }
 
 
-/* RSVP form field background fix for all browsers and devices */
+/* Form field styling for warm beige theme */
 input,
 select,
 textarea {
@@ -53,7 +49,7 @@ textarea {
   box-shadow: none !important;
 }
 
-/* Autofill fix for RSVP and all inputs */
+/* Autofill background fix */
 input:-webkit-autofill,
 input:-webkit-autofill:focus,
 input:-webkit-autofill:hover,
@@ -66,28 +62,13 @@ input:-webkit-autofill:active {
 }
 
 
-h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
-}
-
 button {
-  border-radius: 8px;
-  border: 1px solid transparent;
-  padding: 0.6em 1.2em;
-  font-size: 1em;
-  font-weight: 500;
-  font-family: inherit;
-  background-color: #f5efe8;
   cursor: pointer;
-  transition: border-color 0.25s;
+  font-family: inherit;
 }
-button:hover {
-  border-color: #B993A5;
-}
-button:focus,
 button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
+  outline: 2px solid #B993A5;
+  outline-offset: 2px;
 }
 
 @tailwind base;
